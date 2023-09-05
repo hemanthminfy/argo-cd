@@ -110,7 +110,7 @@ data:
     g, <groupID>, role:readonly
     g, <groupID>, role:admin
     #policy.default: role:readonly
-  scopes: '[ groups, email]'
+  scopes: '[ groups, email]' 
 ```
   8.	Steps to configure the details in ArgoCD configmap:
   •	Below is the configuration template need to be update in the argocd-cm.
